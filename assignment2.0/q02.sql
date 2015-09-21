@@ -1,0 +1,1 @@
+Select fldCourseName from tblCourses WHERE fldCourseName = "Introduction";
