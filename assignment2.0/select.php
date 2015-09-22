@@ -12,6 +12,6 @@ include "top.php";
     <li>q08. <a href="q08.php">SQL:</a> Display each building name and the number of sections it has (59)</li>
     <li>q09. <a href="q09.php">SQL:</a> Display each building name and the number of students in it on Wednesday, sorted by the number of students descending (51)</li>
     <li>q10. <a href="q10.php">SQL:</a> Repeat the above query for Friday (44) - Compare the Kalkin building for Wednesday and Friday. How would you verify the results and explain why?</li>
-    <li>q11. <a href="q11.php">SQL:</a> Display all the course IDs that have at least 50 sections (3)</li>
-    <li>q12. <a href="q12.php">SQL:</a> Display the total number of students that are over capacity in overfilled sections (315)</li>
+    <!--<li>q11. <a href="q11.php">SQL:</a> Display all the course IDs that have at least 50 sections (3)</li>
+    <li>q12. <a href="q12.php">SQL:</a> Display the total number of students that are over capacity in overfilled sections (315)</li> -->
 </ul>

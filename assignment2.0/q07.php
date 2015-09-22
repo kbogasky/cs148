@@ -3,13 +3,13 @@
     
     print '<h1> Total Records: 133</h1>'; 
     // http://www.w3schools.com/sql/sql_distinct.asp
-    print '<h2> SQL: SELECT DISTINCT fldDepartment FROM tblCourses </h2>';
+    print '<h2> SQL: SELECT COUNT(DISTINCT fldDepartment) FROM tblCourses </h2>';
 
     print '<table>';
     
     
     //now print out each record
-    $query = 'SELECT DISTINCT fldDepartment FROM tblCourses';
+    $query = 'SELECT COUNT(DISTINCT fldDepartment) FROM tblCourses';
     $info2 = $thisDatabaseReader->select($query, "", 0, 0, 0, 0, false, false);
 
     foreach ($info2 as $rec) {
